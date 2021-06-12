@@ -9,7 +9,7 @@
 - Python and its Libraries (Numpy, Pandas).
 - Text Editor and Terminal to test the project.
 
-## I was able to answer about...
+## I was able to answer...
 - What month occurs most often in the start time?
 - What day of the week (Monday, Tuesday, etc.) occurs most often in the start time? 
 - What hour of the day occurs most often in the start time?
