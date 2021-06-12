@@ -1,6 +1,6 @@
 # Analysis-US-Bikeshare-Data
 
-##About the project...
+## About the project...
 - It's a project about US-bikeshare in the 3 major cities ('New York city', 'Chicago', 'Washington').
 - Since we want to analysis 3 cities, We are going to deal with 3 datasets each for every city.
 - Columns in each Data are: 1.Start Time 2.End Time 3.Trip Duration 4.Start Station 5.End Station 6.User Type 7.Birth Year 8.Gender (Last 2 columns are just in Chicago and New York city datasets).
