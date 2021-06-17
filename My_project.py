@@ -189,7 +189,28 @@ def user_stats(df):
       
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+	
+def display_data(df):
+    
+    show_rows = 5
+    rows_start = 0
+    rows_end = show_rows - 1    # use index values for rows
 
+    print('\n Would you like to see some raw data from the current dataset?')
+    while True:
+        raw_data = input('      (y or n):  ')
+        if raw_data.lower() == 'y':
+            print('\n    Displaying rows {} to {}:'.format(rows_start + 1, rows_end + 1))
+
+            print('\n', df.iloc[rows_start : rows_end + 1])
+            rows_start += show_rows
+            rows_end += show_rows
+
+            print_line('.')
+            print('\nWould you like to see the next {} rows?'.format(show_rows))
+            continue
+        else:
+            break
 
 def main():
     while True:
